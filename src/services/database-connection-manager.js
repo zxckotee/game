@@ -3,7 +3,7 @@
  * Централизованный доступ к базе данных через Sequelize
  */
 const Sequelize = require('sequelize');
-const databaseConfig = require('../config/database.json');
+const databaseConfig = require('../config/database.docker.json');
 const { getSequelizeInstance } = require('./database-connection-manager-adapter');
 
 // Экспортируем классы Sequelize для использования в моделях
